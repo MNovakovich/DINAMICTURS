@@ -1,0 +1,32 @@
+html, body {
+	font-family: "open sans", "helvetica Neue",Helvetica, Arial, sans-self;
+	background-color:#3f3f4;
+	color:#676a6c;
+
+}
+
+
+#side-menu{
+	background-color: #2f4050;
+	padding:0;
+	height: 100%;
+	
+
+}
+#side-menu h1{
+	color:#1f3647;
+	text-align: center;
+	margin: 10px 0;
+	font-size: 25px;
+
+}
+
+
+/***************DRZAVE*******************************/
+
+#main {
+	border:1px solid blue;
+	background-color: green;
+}
+
+

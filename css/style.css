@@ -1,0 +1,984 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	background:#FFF;
+	font-size:14px;
+	font-family: 'Roboto', Arial, sans-serif;
+	color:#363636;
+	font-weight:300;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight:900;
+	margin:1em 0 0.5em;
+	color:#696969;
+}
+
+h1 { font-size:3em;}
+h2 { font-size:2.2em;}
+h3 { font-size:2em;}
+h4 { font-size:1.6em;}
+h5 { font-size:1.4em;}
+h6 { font-size:1.2em;}
+
+p {
+	margin:0.3em 0 0.5em;
+	line-height: 20px;
+	font-size: 14px;	
+}
+img {
+	vertical-align:bottom;
+	max-width:100%;
+}
+
+.bold {
+	font-weight:700;
+}
+
+a:link,
+a:visited {
+	text-decoration:none;
+	color:#e84e1b;
+	transition:0.2s all ease;
+}
+a:hover {
+	text-decoration:none;
+	color:#f39200;
+}
+a:active {
+	color:#696969;
+}
+
+h2:link,
+h2:visited{
+	text-decoration:none;
+}
+
+.negative {
+	color:#FFFFFF;
+}
+
+.negative h1,
+.negative h2,
+.negative h3,
+.negative h4,
+.negative h5,
+.negative h6 {
+	color:#FFFFFF;
+}
+
+.negative a:link,
+.negative a:visited {
+	color:#FFF;
+}
+.negative a:hover {
+	color:#FFF;
+	text-decoration:underline;
+}tive
+.negative a:active {
+	color:#FFF;
+}
+
+
+
+.button {
+    border: 1px solid #363636;
+    border-radius: 5px;
+    color: #363636;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 17px 33px 15px;
+	margin:20px 0;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.button:hover {
+	background:#7395bc;
+	color:#fff;
+}
+
+#slicica img {
+	
+}
+
+
+.negative .button {
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+.negative .button:hover {
+	background: #FFF;
+    color: #e84e1b;
+	text-decoration:none;
+}
+
+
+
+
+
+.wrapper {
+	width:1250px;
+	margin:0 auto;
+}
+
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#header {
+	background:#FFF;
+	overflow:hidden; 
+}
+
+#headerTop {
+	background:#363636;
+	color:#fff;
+	font-weight:300;
+	padding:8px 0;
+	font-size:14px;
+	border-bottom:4px solid #ececec;
+}
+#headerTopLeft span {
+	margin-right:40px;
+}
+#headerTopLeft span i {
+	color:#4A4A4A;
+}
+
+
+#headerTopLeft {
+	float:left;
+}
+#headerTopRight {
+	float:right;
+}
+#headerTopRight i {
+	margin:0 2px;
+}
+.gornjiMeni {
+padding-right: 20px;
+font-size: 16px;
+ color: #fff;
+
+}
+
+#headerBottom {
+background-color: 
+}
+
+#logo {
+	float:left;
+}
+
+#logo img {
+	height:40px;
+	padding:20px 5px 10px 0 ;
+}
+#nav {
+	position: center;
+	background-color: rgb(102, 160, 255);	
+
+}
+
+#nav ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#nav ul li {
+	float:left;
+	position: relative;
+}
+#nav ul:nth-of-type(1n){
+	margin-left: 18px;
+}
+#nav ul li a {
+	display:block;
+	padding:50px 6px 36px;
+	height:20px;
+	line-height:20px;
+	font-size:14px;
+	font-weight:400;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+#nav ul li a:link,
+#nav ul li a:visited {
+	color:#696969;
+	text-decoration:none;
+	border-bottom:4px solid #FFF; 
+	transition:0.2s all ease;
+}
+#nav ul li a:hover {
+	color:#7395bc;
+	border-bottom:4px solid #7395bc; 
+	background:#F5F2F2;
+	;
+}
+
+
+#respmenu {
+	display:none;
+	font-size:1.2em;
+	margin-top:40px;
+}
+
+
+/*************CSS ZA PODMENI************************************/
+
+
+/******************************************************************/
+
+
+#hero {
+	/*background:  center center / cover; /* izbacio sam jedno slovo*/
+	padding:30px 0;
+	
+}
+.container{
+overflow: hidden;
+}
+.bxSlider {
+	height:390px;
+}
+
+/**********************************************************************
+     HOT DESTINACIJE TAGOVI
+********************************************************************/
+#tags {
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+#tags ul {
+
+	margin: 0;
+
+	list-style: none;
+	margin-top: 40px;
+
+}
+#tags ul li {
+	float: left;
+}
+#tags ul li a {
+	display: block;
+	padding: 10px;
+	transition:2s all ease;
+}
+#tags ul li a:hover {
+    transition:1s all ease;
+}
+#tags ul li a:link,
+#tags ul li a:visited {
+	background-color: #777;
+	color: #fff;
+    text-decoration: none;
+    margin:3px 3px 0 0;
+    border-top-left-radius: 7px;
+}
+#tags ul li a:hover {
+	background-color: red;
+	
+   text-decoration: none;
+
+	color:#FFF;
+}
+#tags ul li a:active {
+	background-color: #F90; color: #921113;
+   text-decoration: none;
+}
+/***********************************************************/
+#products {
+	
+	padding:5px 0 10px;
+	text-align:center;
+
+
+}
+
+
+#products .product {
+	width:280px;
+	padding:10px 10px 10px;
+	margin-top:40px;
+	margin-right:20px;
+	background:#FFF;
+	float:left;
+	text-align:center;
+	position:relative;
+	top:0;
+    transition: all 0.2s ease;
+    border: 1px solid rgb(93, 96, 95);
+	border-radius: 15px;
+}
+#products .product:nth-of-type(4n) {
+	margin-right:0;
+}
+.product{
+	position:relative;
+}
+.product img {
+	width: 100%;
+}
+.product h2 {
+	margin-top: 15px;
+}
+
+
+#products .product span {
+	position:absolute;
+	left:50%;
+	top:-30px;
+	width:60px;
+	height:60px;
+	background:#D9D9D9;
+	margin-left:-30px;
+	font-size:30px;
+	border-radius:32px;
+    transition: all 0.2s ease;
+}
+#products .product span i {
+	margin-top:15px;
+}
+
+#products .product:hover span {
+	background:#CDCDCD;
+}
+
+
+#products .product:hover {
+	top:-10px;
+}
+#products .product:hover .button {
+	animation:product-dugme infinite 1s alternate;
+}
+
+#aviokarte img{
+	width: 100%;
+}
+@keyframes product-dugme {
+	0% {
+		transform:scale(1);
+	}
+	100% {
+		transform:scale(1.1);
+	}
+}
+.imgProduct {
+	
+
+}
+.imgProduct img {
+	width: 100%;
+}
+#about {
+	background:url(../images/about.jpg) center center / cover;
+	margin-top: 40px;
+	padding:100px 0;
+	font-size:1.2em;
+}
+#about .back {
+	background:rgba(0,0,0,0.3);
+	border-radius:2px;
+	padding:20px 40px;
+	width:600px;
+}
+
+
+#partner {
+	padding:60px 0 100px;
+	text-align:center;
+}
+.partners img{
+	height: 
+}
+
+.bx-wrapper .bx-viewport {
+	box-shadow:none !important;
+}
+
+
+
+#footer {
+	padding:30px 0;
+	background:#363636;
+	color:#C5C5C5;
+}
+
+.footerBlock {
+	float:left;
+	margin-right:40px;
+	width:250px;
+}
+.footerBlockR {
+	float:right;
+}
+.footerBlockR img {
+	height:40px;
+	margin-top:40px;
+}
+
+#footerBottom {
+	border-top:1px solid #909090;
+	margin-top:30px;
+	padding:30px 0;
+}
+
+#footerBottom .button {
+	float:right;
+}
+
+
+
+#header.clone {
+	position:fixed;
+	left:0;
+	top:-100%;
+	background:#FFF;
+	width:100%;
+	transition:1s all ease;
+	z-index:1000;
+	border-bottom:1px solid #C2C2C2;
+}
+
+body.down #header.clone {
+	top:0;
+}
+
+
+
+#header.clone #headerTop {
+	display:none;
+}
+
+#header.clone #logo img {
+	height:20px;
+	padding:10px 0 10px;
+}
+
+
+#header.clone #nav ul li a {
+	display:block;
+	padding:10px 20px 10px;
+	height:20px;
+	line-height:20px;
+	font-size:14px;
+	font-weight:400;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+
+
+
+
+#central {
+	border-top:1px solid #CCC;
+	padding:30px 0 120px;
+}
+
+
+
+
+
+
+.product2 {
+	overflow:hidden;
+	margin:40px 0;
+}
+.product2 img {
+	float:left;
+}
+.productInner {
+	padding-left:400px;
+}
+.productInner h2 {
+	margin-top:0px;
+}
+
+
+
+
+
+
+
+.referenceLink {
+	width:220px;
+	margin:0 25px 25px 0;
+	display:block;
+	float:left;
+}
+.referenceLink:nth-of-type(5n) {
+	margin-right:0;
+}
+
+
+
+.article {
+	border-bottom:1px solid #CCC;
+	padding:20px 0;
+	margin-bottom:20px;
+	overflow:hidden;
+	
+}
+
+.article header {
+	border-bottom:1px solid #EEE;
+	margin-bottom:10px;
+}
+
+.article header p {
+	font-size:12px;
+	text-transform:uppercase;
+}
+
+.article .articleImg {
+	float:right;
+	margin:0 0 0 30px;
+}
+
+.article h2 {
+	margin-top:0;
+}
+
+
+
+
+
+
+#main {
+	width:800px;
+	float:left;
+}
+
+#sidebar {
+	width:300px;
+	float:right;
+}
+
+
+
+
+#map {
+	width:100%;
+	height:340px;
+}
+
+
+
+
+.contactInfo {
+	margin:30px 0;
+}
+
+.contactInfo p {
+	border-bottom:1px solid #ccc;
+	padding:10px 0;
+	font-size:1.4em;
+}
+
+.contactInfo i {
+	width:100px;
+	color:#ccc;
+}
+/**************************************************
+Ljetovalista (grcka, crna gora, spanija....)
+***************************************************/
+    
+
+
+/*****************************************************/
+
+/**************************************************
+*          HOTELI LISTA
+
+*************************************************/
+
+
+.hoteliLista {
+	border:1px solid blue;
+	border-radius: 5px 50px 5px 5px;
+	padding: 20px;
+}
+
+.mainHoteli {
+   background-color:rgba(102, 160, 255,0.4);
+   height: 400px;
+}
+#navHoteli ul li a {
+	
+}
+#navHoteli {
+	position: center;
+	background-color: rgba(102, 160, 255,0.4);	
+
+}
+
+#navHoteli ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#navHoteli ul li {
+	float:left;
+	position: block;
+}
+#navHoteli ul:nth-of-type(1n){
+	margin-left: 18px;
+}
+#navHoteli ul li a {
+	display:block;
+	padding:10px 10px 20px;
+	height:20px;
+	line-height:20px;
+	font-size:14px;
+	font-weight:400;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+#navHoteli ul li  {
+	
+}
+
+#navHoteli ul li a:link,
+#navHoteli ul li a:visited {
+	color:#696969;
+	text-decoration:none;
+	
+	transition:0.2s all ease;
+}
+#navHoteli ul li a:hover {
+	color:#7395bc; 
+	border-bottom:1px solid yellow; 
+	background:#F5F2F2;
+	;
+}
+
+
+.slikaHoteli img{
+	margin-right: 20px;
+	height: 250px;
+}
+
+
+
+
+
+
+/************************************************/
+
+/********************************************
+* STRANICA GDE OPISUJEM DETALJNO HOTELE     *
+***********************:**********************/
+.maleSlicice {
+ /*DA SE MALE SLIKICE NA HOTELU RASIRE PREKO CITAVE SIRINE RODITELJSKOG ELEMENTA */
+ /* 
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    */
+	margin-top:5px;
+	border-top:2px solid blue;
+	border-bottom: 2px solid blue;
+	border
+	border: solid blue;
+	margin-left:0;
+	float:left;
+}
+.maleSlicice img{
+    margin-right: 2px;
+    width: 130px;
+    height: 100px;
+}
+.articleImg a {
+  height: 180%;
+}
+
+.article .articleImg {
+    float: left;
+    margin: 2px 2px 0 1px;
+}
+.articleImg:nth-of-type(1n){
+	margin-left: 0;
+}
+
+
+#tagoviMenu {
+	height: 210px;  /* ovaj ID ide vise videa kako bih napravio prazan prostor gde mogu da ubacim tagove */
+}
+
+/******************************************************/
+.banerDesno img{
+	padding: 0 0 10px 0; 
+}
+/*****************************************************
+*            OVDJE IDE TOGGLE MENI                   *
+******************************************************/
+.tabovi{
+	margin-top: 10px;
+}
+.tab {
+    background: #00B4B3;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.tab-open{
+	display: none;
+}
+/***********************************************************/
+@media screen and (min-width:1024px) and (max-width:1260px) {
+	.wrapper {
+		width:960px;
+	}
+	#products .product {
+		width:380px;
+		margin-right:60px;
+		
+	}
+	#products .product:nth-of-type(4n) {
+		margin-right:60px;
+	}
+	#products .product:nth-of-type(2n) {
+		margin-right:0;
+	}
+	
+	
+	
+	.referenceLink {
+		width:210px;
+		margin:0 40px 40px 0;
+
+	}
+	
+	.referenceLink:nth-of-type(5n) {
+		margin-right:40px;
+	}
+	.referenceLink:nth-of-type(4n) {
+		margin-right:0;
+	}
+
+
+	#main {
+		width:600px;
+		float:left;
+	}
+	
+	#sidebar {
+		width:280px;
+		float:right;
+	}
+
+}
+
+/****************************************
+ STRANICA GDE SU DRZAVE (GRCKA)
+
+**************************************/
+#mainFul p{
+   
+    font-size: 14px;
+}
+
+#mainFul img{
+	width: 340px;
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+	.wrapper {
+		width:700px;
+	}
+	#products .product {
+		width:260px;
+		margin-right:40px;
+	}
+	#products .product:nth-of-type(4n) {
+		margin-right:40px;
+	}
+	#products .product:nth-of-type(2n) {
+		margin-right:0;
+	}
+	#about .back {
+		width:400px;
+	}
+	#logo {
+		float:none;
+		text-align:center;
+	}
+	
+	#nav {
+		float:none;
+	}
+	
+	.referenceLink {
+		width:210px;
+		margin:0 35px 35px 0;
+	}
+	.referenceLink:nth-of-type(5n) {
+		margin-right:35px;
+	}
+	.referenceLink:nth-of-type(3n) {
+		margin-right:0;
+	}
+	#main {
+		width:480px;
+		float:left;
+	}
+	
+	#sidebar {
+		width:200px;
+		float:right;
+	}
+
+	#aviokarte img:hover {
+	height: 170px;
+
+}
+}
+
+@media screen and (max-width:767px) {
+	.wrapper {
+		width:80%;
+	}
+	
+	#logo {
+		float:none;
+		text-align:center;
+	}
+	#respmenu {
+		display:block;
+	}
+	
+	#nav {
+		float:none;
+	}
+	#nav ul {
+		display:none;
+	}
+	#nav ul li {
+		float:none;
+		border-bottom:1px solid #ccc;
+	}
+	#products .product {
+		width:auto;
+		margin-right:0;
+	}
+	#products .product:nth-of-type(4n) {
+		margin-right:0;
+	}
+	#about .back {
+		width:auto;
+	}
+	
+	
+		
+	
+	.product2 {
+		overflow:hidden;
+		margin:40px 0;
+		border-top:1px solid #CCC;
+		padding-top:30px;
+	}
+	.product2 img {
+		float:none;
+	}
+	.productInner {
+		padding-left:0;
+	}
+	.productInner h2 {
+		margin-top:20px;
+	}
+
+	.referenceLink {
+		width:100%;
+		margin:0 0 35px 0;
+	}
+	.referenceLink:nth-of-type(5n) {
+		margin-right:0;
+	}
+	
+	
+	.contactInfo i {
+		display:block;
+		margin-bottom:10px;
+		color:#ccc;
+	}
+	
+	
+	
+	
+	.article .articleImg {
+		float:none;
+		/*margin:0 0 20px 0; */
+	}
+	
+	.article h2 {
+		margin-top:20px;
+	}
+	
+	
+	
+	#main,
+	#sidebar {
+		width:auto;
+		float:none;
+	}
+	
+	
+	#headerTopLeft,
+	#headerTopRight {
+		float:none;
+		margin-bottom:20px;
+	}
+	
+	.footerBlock,
+	.footerBlockR {
+		width:auto;
+		float:none;
+	}
+
+	#aviokarte img:hover {
+	height: 90px;
+
+     }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

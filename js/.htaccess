@@ -1,0 +1,16 @@
+#ErrorDocument 404 "<h1><i>Postovani korisnice doslo je do greske,pokusajte ponovo!<i><h1>"
+
+#Options -Indexes
+
+#ErrorDocument 403 "nema listanja foldera"
+
+#ErrorDocument 401 "Pokusao si ali nece moci"
+
+#ErrorDocument 500 "Nemas prava pristupa"
+
+#AuthUserFile c:/wamp64/www/ppp/.htpasswd
+#AuthType Basic
+#AuthName "Ovo mogu pogledati samo ko ima pasvord i username"
+#Require valid-user
+
+#Options -Indexes

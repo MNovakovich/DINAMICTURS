@@ -1,0 +1,26 @@
+create view hoteli_pregled
+as
+    SELECT 
+        `odmaralista`.`naziv` AS `naziv`,
+        `hotel`.`nazivHotel` AS `nazivHotel`,
+        `aranzman`.`vrsta` AS `vrsta`,
+        `drzave`.naziv as drzava
+        
+    FROM
+        `hoteli_lista`
+        JOIN `hotel` ON `hotel`.`id` = `hoteli_lista`.`hotel_id`
+        JOIN `odmaralista` ON `odmaralista`.`id` = `hoteli_lista`.`odmaralista_id`
+        JOIN `aranzman` ON `aranzman`.`id` = `hoteli_lista`.`aranzman_id`
+		JOIN `drzave` ON `drzave`.`id` = `odmaralista`.`drzava_id`
+
+
+CREATE VIEW glavniPregled
+AS
+select hotel.id, hotel.hotel_naziv,hotel.foto_1 as foto, hotel.tekst_naslovna, hotel.datum_azuriranja, hotel.last_minut,hotel.last_minut, ponuda.id as ponuda_id, ponuda.naslov, ponuda.godina, aranzman.id, aranzman.vrsta as aranzman, drzaveLjeto.id as drzava_id, drzaveLjeto.naziv as drzavaLjeto
+FROM aranzman
+LEFT JOIN ponuda
+ON aranzman.id = ponuda.aranzman_id
+LEFT JOIN drzaveLjeto
+ON drzaveLjeto.id = ponuda.drzaveLjeto_id
+LEFT JOIN hotel
+ON ponuda.id = hotel.ponuda_id
